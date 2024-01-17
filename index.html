@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+</head>
+<body>
+    <h1>Journal Subscription</h1>
+    <form>
+        <div>
+            <label for="date">Starting Date:</label>
+            <input type="date" />
+        </div>
+        <div>
+            <label for="duration">Duration: (each step is 1 year)</label>
+            <input type="range" min="0" max="10" step="1" value="0"/>
+        </div>
+        <div>
+            <label for="occupation"> Occupation:</label>
+            <input type="radio" name="occ" />Student 
+            <input type="radio" name="occ" />Professional
+        </div>
+        <div>
+            <label for="journals"> Journals:</label> <br>
+            <input type="checkbox" name="jour" />Journal 1 <br>
+            <input type="checkbox" name="jour" />Journal 2 <br>
+            <input type="checkbox" name="jour" />Journal 3 <br>
+            <input type="checkbox" name="jour" />Journal 4 <br>
+            <input type="checkbox" name="jour" />Journal 5 <br>
+            <input type="checkbox" name="jour" />Journal 6 <br>
+        </div>
+        <div>
+            <label for="number">Number of subscriptions:</label>
+            <input type="number" min="10" max="200" />
+        </div>
+        <div>
+            <label for="url">URL:</label>
+            <input type="url" min="10" max="200" />
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="submit" value="Clear">
+         </div>   
+    </form>
+</body>
+</html>
